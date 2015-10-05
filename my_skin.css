@@ -1,0 +1,33 @@
+/* Globals */
+.slide.cover img, .slide.cover svg,
+.slide.cover video, .slide.cover object,
+.slide.cover canvas, .slide.cover iframe { max-width: 100%; }
+.picture h2 {color:#FFF;}
+.picture img {height: 100%; width: auto; margin: 0 auto; right: 0;}
+.slide.cover.center h2 {text-align:center;}
+
+/* Cover slide */
+#Cover h2 {
+	margin:340px 0 0;
+	color:#FFF;
+	text-align:center;
+	font-size:70px;
+}
+#Cover p {
+	margin:10px 0 0;
+	text-align:center;
+	color:#FFF;
+	font-style:italic;
+	font-size:20px;
+}
+#Cover p a {
+	color:#FFF;
+}
+
+/*Conceitos*/
+# h2 {
+	margin:340px 0 0;
+	color:#FFF;
+	text-align:center;
+	font-size:70px;
+}
