@@ -6,12 +6,20 @@
 code .content {color: #FFF9C4;}
 .slide > div {padding-top: 60px;}
 .slide h2{color: #fff;}
+.slide h2.large {
+  font-size: 80px;
+  top: 50%;
+  margin: 0;
+  position: relative;
+}
 .slide p {
   margin: 0 0 20px;
 }
+
 .slide.cover img, .slide.cover svg,
 .slide.cover video, .slide.cover object,
 .slide.cover canvas, .slide.cover iframe { max-width: 100%; }
+
 .slide pre[class*='language-']{
   padding: 10px 15px;
   position: relative;
@@ -28,7 +36,12 @@ code .content {color: #FFF9C4;}
 }
 .slide pre code { line-height: 1.3em; font-size: 20px; }
 .slide pre code:before {display: none;}
-.picture h2 {color:#FFF;}
+
+.slide.full {}
+.slide.full > div {padding: 0; width: 100%; height: 100%;}
+.slide.topic h2 {font-size: 60px; top: 50px;}
+
+.picture h2 {color:#FFF; text-align: center;}
 .picture img {height: 100%; width: auto; margin: 0 auto; right: 0;}
 
 .slide.cover.center h2 {text-align:center;}
