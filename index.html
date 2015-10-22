@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dojo-react-js by afgoulart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Dojo-react-js</h1>
+      <h2 class="project-tagline">apresentação com base no https://github.com/shower/shower para o dojo de Reactjs</h2>
+      <a href="https://github.com/afgoulart/dojo-react-js" class="btn">View on GitHub</a>
+      <a href="https://github.com/afgoulart/dojo-react-js/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/afgoulart/dojo-react-js/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="dojo-reactjs" class="anchor" href="#dojo-reactjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dojo ReactJS</h1>
+
+<p>André Filipe Goulart, Desenvolvedor Front-end Submarino.</p>
+
+<h2>
+<a id="react-js" class="anchor" href="#react-js" aria-hidden="true"><span class="octicon octicon-link"></span></a>React JS</h2>
+
+<p>by <a href="http://afgoulart.com">André Filipe Goulart</a></p>
+
+<p><img src="pictures/cover.jpg" alt=""></p>
+
+<h2>
+<a id="tópicos-que-vamos-abordar" class="anchor" href="#t%C3%B3picos-que-vamos-abordar" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tópicos que vamos abordar</h2>
+
+<ol>
+<li>Conceitos</li>
+<li>Anatomia de uma aplicação React</li>
+<li>Renderização</li>
+<li>Componentes</li>
+<li>Props</li>
+<li>Estado</li>
+<li>Composição</li>
+<li>Por que usar React?</li>
+</ol>
+
+<h2>
+<a id="vamos-começar" class="anchor" href="#vamos-come%C3%A7ar" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vamos começar?</h2>
+
+<p><img src="pictures/cheering_minions.gif" alt=""></p>
+
+<h2>
+<a id="conceitos" class="anchor" href="#conceitos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conceitos</h2>
+
+<p><img src="pictures/conceitos.jpg" alt="conceitos"></p>
+
+<h2>
+<a id="elementos-react" class="anchor" href="#elementos-react" aria-hidden="true"><span class="octicon octicon-link"></span></a>Elementos React</h2>
+
+<blockquote>
+<p>Objetos Javascript que representam elementos html guardados</p>
+</blockquote>
+
+<h2>
+<a id="componentes" class="anchor" href="#componentes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Componentes</h2>
+
+<blockquote>
+<p>São criados pelo desenvoledor. Geralmente partes maiores que possuem uma estrutura e funcionalidades como Header, Footer, Main e Nav.</p>
+</blockquote>
+
+<h2>
+<a id="jsx" class="anchor" href="#jsx" aria-hidden="true"><span class="octicon octicon-link"></span></a>JSX</h2>
+
+<blockquote>
+<p>Técnica para criação dos elementos e componentes React.</p>
+
+<p>Ex:</p>
+
+<pre>            `&lt;h1&gt;Oi&lt;/h1&gt;`</pre>
+
+<p>Ex:</p>
+
+<pre>            `React.createElement('h1', null, 'Oi');`</pre>
+</blockquote>
+
+<h2>
+<a id="virtual-dom" class="anchor" href="#virtual-dom" aria-hidden="true"><span class="octicon octicon-link"></span></a>Virtual DOM</h2>
+
+<blockquote>
+<p>A arvore em javascript dos elementos e componetes React.</p>
+
+<p>O React renderia o Virtual DOM para tornar a inteface do usuário visível.</p>
+
+<p>O React observa procurando alterações, automaticamente mutando o DOM do browser para corresponder com o virtual DOM.</p>
+</blockquote>
+
+<h2>
+<a id="anatomia-de-uma-aplicação-react" class="anchor" href="#anatomia-de-uma-aplica%C3%A7%C3%A3o-react" aria-hidden="true"><span class="octicon octicon-link"></span></a>Anatomia de uma aplicação React</h2>
+
+<p><img src="pictures/anatomia.jpg" alt=""></p>
+
+<h2>
+<a id="anatomia-de-uma-aplicação-react-1" class="anchor" href="#anatomia-de-uma-aplica%C3%A7%C3%A3o-react-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Anatomia de uma aplicação React</h2>
+
+<p><img src="pictures/thinking-in-react-mock.jpg" alt=""></p>
+
+<h2>
+<a id="renderização" class="anchor" href="#renderiza%C3%A7%C3%A3o" aria-hidden="true"><span class="octicon octicon-link"></span></a>Renderização</h2>
+
+<p>Aceita dois argumentos "elemento" e "um nó" do DOM</p>
+
+<pre>        `React.render(` `&lt;img src='http://tinyurl.com/lkevsb9' /&gt;,` `document.body``);`</pre>
+
+<h2>
+<a id="componente" class="anchor" href="#componente" aria-hidden="true"><span class="octicon octicon-link"></span></a>Componente</h2>
+
+<p>Criando um componente</p>
+
+<pre>        `var MyFigure = React.createClass({` `render: function() {` `return &lt;img src='http://tinyurl.com/lkevsb9' /&gt;` `}``});``React.render(&lt;MyFigure /&gt;, document.body);`</pre>
+
+<h2>
+<a id="props" class="anchor" href="#props" aria-hidden="true"><span class="octicon octicon-link"></span></a>Props</h2>
+
+<p>Criando um componente com propriedades</p>
+
+<pre>        `var MyFigure = React.createClass({` `render: function() {` `return (` `&lt;figure&gt;` `&lt;img src={this.props.imageUrl} /&gt;` `&lt;figcaption&gt;{this.props.caption} &lt;/figcaption&gt;` `&lt;/figure&gt;` `)` `}``});``React.render(&lt;MyFigure imageUrl="http://tinyurl.com/lkevsb9" caption="My figure 1" /&gt;,` `document.body);`</pre>
+
+<h2>
+<a id="obrigado" class="anchor" href="#obrigado" aria-hidden="true"><span class="octicon octicon-link"></span></a>Obrigado</h2>
+
+<p><img src="pictures/giphy.gif" alt=""></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/afgoulart/dojo-react-js">Dojo-react-js</a> is maintained by <a href="https://github.com/afgoulart">afgoulart</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
