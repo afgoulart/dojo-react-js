@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=792, user-scalable=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen.css">
-  <link rel="stylesheet" href="prism.css">
-  <link rel="stylesheet" href="my_skin.css">
+  <link rel="stylesheet" href="css/shower-ribbon.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <link rel="stylesheet" href="css/my_skin.css">
 </head>
 <body class="list">
   <header class="caption">
@@ -16,8 +16,10 @@
   </header>
   <section class="slide cover" id="Cover">
     <div>
-      <h2>React JS</h2>
-      <p>by <a href="http://afgoulart.com">André Filipe Goulart</a></p>
+      <div class="title-bottom">
+        <h2>React JS</h2>
+        <p>by <a href="http://afgoulart.com">André Filipe Goulart</a></p>
+      </div>
       <img src="pictures/cover.jpg" alt="">
     </div>
   </section>
@@ -42,7 +44,7 @@
       <img src="pictures/cheering_minions.gif" alt="">
     </div>
   </section>
-  <section class="slide cover picture full">
+  <section class="slide cover picture">
     <div>
       <h2 class="large">Conceitos</h2>
       <img src="pictures/conceitos.jpg" alt="conceitos">
@@ -98,13 +100,13 @@
       </figure>
     </div>
   </section>
-  <section class="slide shout active full textlight texttop">
+  <section class="slide shout active textlight texttop">
     <div>
       <h2>Anatomia de uma aplicação React</h2>
       <img src="pictures/anatomia.jpg" alt="">
     </div>
   </section>
-  <section class="slide shout active full textlight topic">
+  <section class="slide shout active textlight topic">
     <div>
       <h2>Anatomia de uma aplicação React</h2>
       <img src="pictures/thinking-in-react-mock.jpg" class="small" alt="">
@@ -135,43 +137,6 @@
         <figure></figure>
     </div>
   </section>
-  <!-- <section class="slide">
-    <div>
-      <h2>Code Samples</h2>
-      <pre>
-        <code>&lt;!DOCTYPE html&gt;</code>
-        <code>&lt;html lang="en"&gt;</code>
-        <code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
-        <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-        <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-        <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-        <code><mark>&lt;/head&gt;</mark></code>
-      </pre>
-    </div>
-  </section>
-  <section class="slide cover picture">
-    <div>
-      <h2>Pictures</h2>
-      <img src="pictures/picture.jpg" alt="">
-    </div>
-  </section>
-  <section class="slide shout">
-    <div>
-      <h2>You can even shout this way</h2>
-    </div>
-  </section>
-  <section class="slide">
-    <div>
-      <h2>Inner Navigation</h2>
-      <ol>
-        <li>Lets you reveal list items one by one</li>
-        <li class="next">To keep some key points</li>
-        <li class="next">In secret from audience</li>
-        <li class="next">But it will work only once</li>
-        <li class="next">Nobody wants to see the same joke twice</li>
-      </ol>
-    </div>
-  </section> -->
   <section class="slide shout" id="SeeMore">
     <div>
       <h2>Obrigado</h2>
@@ -179,14 +144,8 @@
     </div>
   </section>
 
-  <!--
-    To hide progress bar from entire presentation
-    just remove “progress” element.
-  -->
   <div class="progress"><div></div></div>
-  <script src="node_modules/shower-core/shower.min.js"></script>
-  <script src="prism.js"></script>
-  <!-- Copyright © 2014 Yours Truly, Famous Inc. -->
-  <!-- Photos by John Carey, fiftyfootshadows.net -->
+  <script src="js/shower-core/shower.min.js"></script>
+  <script src="js/prism.js"></script>
 </body>
 </html>

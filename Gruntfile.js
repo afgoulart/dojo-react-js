@@ -19,11 +19,14 @@ module.exports = function(grunt) {
         livereload: false
       },
       styles: {
-        files: ['**/*.css'],
-        tasks: []
+        files: ['css/*.css'],
+        tasks: [],
+        options: {
+          livereload: true
+        }
       },
       scripts: {
-        files: ['**/*.js'],
+        files: ['js/*.js'],
         tasks: [],
         options: {
           livereload: true

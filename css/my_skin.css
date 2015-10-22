@@ -1,5 +1,5 @@
 /* Globals */
-.slide {background: #0D47A1; color: #FFF;}
+.slide {background: #0D47A1; color: #FFF; }
 .char {color: #FFF;}
 .tag {color: #A52A2A;}
 .attr {color: #FF7F50;}
@@ -37,8 +37,8 @@ code .content {color: #FFF9C4;}
 .slide pre code { line-height: 1.3em; font-size: 20px; }
 .slide pre code:before {display: none;}
 
-.slide.full {}
-.slide.full > div {padding: 0; width: 100%; height: 100%;}
+.slide .full {position: relative;}
+.slide .full > div {padding: 0; width: 100%; height: 100%;}
 .slide.topic h2 {font-size: 60px; top: 50px;}
 
 .picture h2 {color:#FFF; text-align: center;}
