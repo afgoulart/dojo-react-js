@@ -14,7 +14,7 @@
     <h1>Dojo ReactJS</h1>
     <p>André Filipe Goulart, Desenvolvedor Front-end Submarino.</p>
   </header>
-  <section class="slide cover" id="Cover">
+  <section class="slide cover" id="inicio">
     <div>
       <div class="title-bottom">
         <h2>React JS</h2>
@@ -23,7 +23,7 @@
       <img src="pictures/cover.jpg" alt="">
     </div>
   </section>
-  <section class="slide">
+  <section class="slide" id="topicos">
     <div>
       <h2>Tópicos que vamos abordar</h2>
       <ol>
@@ -38,29 +38,29 @@
       </ol>
     </div>
   </section>
-  <section class="slide cover picture">
+  <section class="slide cover picture" id="letsgo">
     <div>
       <h2>Vamos começar?</h2>
       <img src="pictures/cheering_minions.gif" alt="">
     </div>
   </section>
-  <section class="slide cover picture">
+  <section class="slide cover picture" id="conceitos">
     <div>
       <h2 class="large">Conceitos</h2>
       <img src="pictures/conceitos.jpg" alt="conceitos">
     </div>
   </section>
-  <section class="slide">
+  <section class="slide" id="elementos-react">
     <div>
       <h2>Elementos React</h2>
       <figure>
         <blockquote>
-          <p>Objetos Javascript que representam elementos html guardados</p>
+          <p>Objetos Javascript que representam elementos html guardados na memória. Eles não existem no browser.</p>
         </blockquote>
       </figure>
     </div>
   </section>
-  <section class="slide">
+  <section class="slide" id="componentes">
     <div>
         <h2>Componentes</h2>
         <figure>
@@ -70,7 +70,7 @@
         </figure>
     </div>
   </section>
-  <section class="slide">
+  <section class="slide" id="jsx">
     <div>
       <h2>JSX</h2>
       <figure>
@@ -100,13 +100,13 @@
       </figure>
     </div>
   </section>
-  <section class="slide shout active textlight texttop">
+  <section class="slide shout cover textlight">
     <div>
       <h2>Anatomia de uma aplicação React</h2>
       <img src="pictures/anatomia.jpg" alt="">
     </div>
   </section>
-  <section class="slide shout active textlight topic">
+  <section class="slide shout textlight topic">
     <div>
       <h2>Anatomia de uma aplicação React</h2>
       <img src="pictures/thinking-in-react-mock.jpg" class="small" alt="">
@@ -117,7 +117,7 @@
       <h2>Renderização</h2>
       <p>Aceita dois argumentos "elemento" e "um nó" do DOM</p>
       <pre class="language-jsx" data-lang="JSX">
-        <code>React.render(</code><code>  &lt;img src='http://tinyurl.com/lkevsb9' />,</code><code> document.body</code><code>);</code></pre>
+        <code>React.render(</code><code>  &lt;h1>Hello World&lt;/h1>,</code><code> document.body</code><code>);</code></pre>
     </div>
   </section>
   <section class="slide">
@@ -125,7 +125,7 @@
       <h2>Componente</h2>
       <p>Criando um componente</p>
       <pre class="language-jsx" data-lang="JSX">
-        <code>var MyFigure = React.createClass({</code><code>  render: function() {</code><code>    return &lt;img src='http://tinyurl.com/lkevsb9' /></code><code>  }</code><code>});</code><code>React.render(&lt;MyFigure />, document.body);</code></pre>
+        <code>var Todo = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;ul></code><code>        &lt;li>item 1&lt;/li></code><code>      &lt;/ul></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo />, document.body);</code></pre>
     </div>
   </section>
   <section class="slide">
@@ -133,8 +133,16 @@
       <h2>Props</h2>
       <p>Criando um componente com propriedades</p>
       <pre class="language-jsx" data-lang="JSX">
-        <code>var MyFigure = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;figure></code><code>        &lt;img src={this.props.imageUrl} /></code><code>        &lt;figcaption>{this.props.caption} &lt;/figcaption></code><code>      &lt;/figure></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;MyFigure imageUrl="http://tinyurl.com/lkevsb9" caption="My figure 1" />,</code><code>  document.body);</code></pre>
+        <code>var Todo = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;figure></code><code>        &lt;img src={this.props.imageUrl} /></code><code>        &lt;figcaption>{this.props.caption} &lt;/figcaption></code><code>      &lt;/figure></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo imageUrl="http://tinyurl.com/lkevsb9" caption="My figure 1" />,</code><code>  document.body);</code></pre>
         <figure></figure>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Estado</h2>
+      <p>Criamos </p>
+      <pre class="language-jsx" data-lang="JSX">
+        <code>var todo = React.createClass({</code><code>  getInicialState: function() {</code><code>    return {</code><code>      check: false</code><code>    },</code><code>  render: function() {</code><code>    return (</code><code>      &lt;figure></code><code>        &lt;img src={this.props.imageUrl} /></code><code>        &lt;figcaption>{this.props.caption} &lt;/figcaption></code><code>      &lt;/figure></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo imageUrl="http://tinyurl.com/lkevsb9" caption="My figure 1" />,</code><code>  document.body);</code></pre>
     </div>
   </section>
   <section class="slide shout" id="SeeMore">
@@ -147,5 +155,6 @@
   <div class="progress"><div></div></div>
   <script src="js/shower-core/shower.min.js"></script>
   <script src="js/prism.js"></script>
+
 </body>
 </html>

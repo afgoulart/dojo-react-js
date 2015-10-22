@@ -4,7 +4,16 @@
 .tag {color: #A52A2A;}
 .attr {color: #FF7F50;}
 code .content {color: #FFF9C4;}
-.slide > div {padding-top: 60px;}
+.slide > div {
+  padding: 60px 80px 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.slide > div > img{
+  max-width: 100%;
+  margin: 0 auto;
+}
 .slide h2{color: #fff;}
 .slide h2.large {
   font-size: 80px;
@@ -14,6 +23,14 @@ code .content {color: #FFF9C4;}
 }
 .slide p {
   margin: 0 0 20px;
+}
+
+.slide .title-bottom {
+  bottom: 30px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
 }
 
 .slide.cover img, .slide.cover svg,
@@ -57,7 +74,8 @@ code .content {color: #FFF9C4;}
   color: #666;
 }
 .shout img {
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   left: 0;
   margin: auto;
   position: absolute;
@@ -67,26 +85,28 @@ code .content {color: #FFF9C4;}
   z-index: -1;
 }
 .shout img.small {
-    bottom: 0;
-    height: 80%;
-    top: 0;
-  }
+  bottom: 0;
+  min-height: 60%;
+  width: auto;
+  top: 0;
+  margin: auto;
+}
 
 /* Cover slide */
-#Cover h2 {
-  margin:340px 0 0;
+#inicio h2 {
+  /*margin:340px 0 0;*/
   color:#FFF;
   text-align:center;
   font-size:70px;
 }
-#Cover p {
+#inicio p {
   margin:10px 0 0;
   text-align:center;
   color:#FFF;
   font-style:italic;
   font-size:20px;
 }
-#Cover p a {
+#inicio p a {
   color:#FFF;
 }
 
