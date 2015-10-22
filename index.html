@@ -1,162 +1,200 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Shower Presentation Engine</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=792, user-scalable=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen.css">
-	<link rel="stylesheet" href="my_skin.css">
+  <title>Shower Presentation Engine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=792, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen.css">
+  <link rel="stylesheet" href="prism.css">
+  <link rel="stylesheet" href="my_skin.css">
 </head>
 <body class="list">
-	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
-	</header>
-	<section class="slide cover" id="Cover">
-		<div>
-			<h2>React JS</h2>
-			<p>by <a href="http://afgoulart.com">André Filipe Goulart</a></p>
-			<img src="pictures/cover.jpg" alt="">
-		</div>
-	</section>
-	<section class="slide">
-		<div>
-			<h2>Tópicos que vamos abordar</h2>
-			<ol>
-				<li class="next">Conceitos</li>
-				<li class="next">Anatomia de uma aplicação React</li>
-				<li class="next">Renderização</li>
-				<li class="next">Componentes</li>
-				<li class="next">Props</li>
-				<li class="next">Estado</li>
-				<li class="next">Composição</li>
-				<li class="next">Por que usar React?</li>
-			</ol>
-		</div>
-	</section>
-	<section class="slide cover picture">
-		<div>
-			<h2>Vamos começar?</h2>
-			<img src="pictures/cheering_minions.gif" alt="">
-		</div>
-	</section>
-	<section class="slide cover center picture" id="Conceitos">
-		<div>
-			<h2>Conceitos</h2>
-			<img src="pictures/conceitos.jpg" alt="conceitos">
-		</div>
-	</section>
-	<section class="slide">
-		<div>
-			<h2>Elementos React</h2>
-			<figure>
-				<blockquote>
-					<p>Objetos Javascript que representam elementos html guardados</p>
-				</blockquote>
-			</figure>
-		</div>
-	</section>
-	<section class="slide">
-		<div>
-				<h2>Componentes</h2>
-				<figure>
-					<blockquote>
-						<p>São criados pelo desenvoledor. Geralmente partes maiores que possuem uma estrutura e funcionalidades como Header, Footer, Main e Nav.</p>
-					</blockquote>
-				</figure>
-		</div>
-	</section>
-	<section class="slide">
-		<div>
-			<h2>JSX</h2>
-			<figure>
-				<blockquote>
-					<p>Técnica para criação dos elementos e componentes React.</p>
-					<p>Ex: <code>&lt;h1&gt;Oi&lt;/h1&gt;</code></p>
-					<p>Ex: <code>React.createElement('h1', null, 'Oi');</code></p>
-				</blockquote>
-			</figure>
-		</div>
-	</section>
-	<section class="slide">
-		<div>
-			<h2>Virtual DOM</h2>
-			<figure>
-				<blockquote>
-					<p>A arvore em javascript dos elementos e componetes React.</p>
-					<p>O React renderia o Virtual DOM para tornar a inteface do usuário visível.</p>
-					<p>O React observa procurando alterações, automaticamente mutando o DOM do browser para responder  </p>
-				</blockquote>
-			</figure>
-		</div>
-	</section>
-	<section class="slide">
-		<div>
-			<h2>Anatomia de uma aplicação React</h2>
-			<img class="next" src="pictures/thinking-in-react-mock.jpg" alt="">
-		</div>
-	</section>
-	<section class="slide">
-		<div>
-			<h2>Code Samples</h2>
-			<pre>
-				<code>&lt;!DOCTYPE html&gt;</code>
-				<code>&lt;html lang="en"&gt;</code>
-				<code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
-				<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-				<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-				<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-				<code><mark>&lt;/head&gt;</mark></code>
-			</pre>
-		</div>
-	</section>
-	<section class="slide cover picture">
-		<div>
-			<h2>Pictures</h2>
-			<img src="pictures/picture.jpg" alt="">
-		</div>
-	</section>
-	<section class="slide shout"><div>
-		<h2>You can even shout this way</h2>
-	</div>
+  <header class="caption">
+    <h1>Shower Presentation Engine</h1>
+    <p>Yours Truly, Famous Inc.</p>
+  </header>
+  <section class="slide cover" id="Cover">
+    <div>
+      <h2>React JS</h2>
+      <p>by <a href="http://afgoulart.com">André Filipe Goulart</a></p>
+      <img src="pictures/cover.jpg" alt="">
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Tópicos que vamos abordar</h2>
+      <ol>
+        <li class="next">Conceitos</li>
+        <li class="next">Anatomia de uma aplicação React</li>
+        <li class="next">Renderização</li>
+        <li class="next">Componentes</li>
+        <li class="next">Props</li>
+        <li class="next">Estado</li>
+        <li class="next">Composição</li>
+        <li class="next">Por que usar React?</li>
+      </ol>
+    </div>
+  </section>
+  <section class="slide cover picture">
+    <div>
+      <h2>Vamos começar?</h2>
+      <img src="pictures/cheering_minions.gif" alt="">
+    </div>
+  </section>
+  <section class="slide shout active">
+    <div>
+      <h2>Conceitos</h2>
+      <img src="pictures/conceitos.jpg" alt="conceitos">
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Elementos React</h2>
+      <figure>
+        <blockquote>
+          <p>Objetos Javascript que representam elementos html guardados</p>
+        </blockquote>
+      </figure>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+        <h2>Componentes</h2>
+        <figure>
+          <blockquote>
+            <p>São criados pelo desenvoledor. Geralmente partes maiores que possuem uma estrutura e funcionalidades como Header, Footer, Main e Nav.</p>
+          </blockquote>
+        </figure>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>JSX</h2>
+      <figure>
+        <blockquote>
+          <p>Técnica para criação dos elementos e componentes React.</p>
+          <p>Ex:
+            <pre class="language-html" data-lang="HTML">
+            <code>&lt;h1&gt;Oi&lt;/h1&gt;</code></pre>
+          </p>
+          <p>Ex:
+            <pre class="language-jsx" data-lang="JS">
+            <code>React.createElement('h1', null, 'Oi');</code></pre>
+          </p>
+        </blockquote>
+      </figure>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Virtual DOM</h2>
+      <figure>
+        <blockquote>
+          <p>A arvore em javascript dos elementos e componetes React.</p>
+          <p>O React renderia o Virtual DOM para tornar a inteface do usuário visível.</p>
+          <p>O React observa procurando alterações, automaticamente mutando o DOM do browser para corresponder com o virtual DOM.</p>
+        </blockquote>
+      </figure>
+    </div>
+  </section>
+  <section class="slide shout active textlight texttop">
+    <div>
+      <h2>Anatomia de uma aplicação React</h2>
+      <img src="pictures/anatomia.jpg" alt="">
+    </div>
+  </section>
+  <section class="slide shout active">
+    <div>
+      <img src="pictures/thinking-in-react-mock.jpg" class="small" alt="">
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Renderização</h2>
+      <p>Aceita dois argumentos "elemento" e "um nó" do DOM</p>
+      <pre class="language-jsx" data-lang="JSX">
+        <code>React.render(</code><code>  &lt;img src='http://tinyurl.com/lkevsb9' />,</code><code> document.body</code><code>);</code></pre>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Componente</h2>
+      <p>Criando um componente</p>
+      <pre class="language-jsx" data-lang="JSX">
+        <code>var Figure = React.createClass({</code><code>  render: function() {</code><code>    return &lt;img src='http://tinyurl.com/lkevsb9' /></code><code>  }</code><code>});</code><code>React.render(&lt;Figure />, document.body);</code></pre>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Props</h2>
+      <p>Criando um componente com propriedades</p>
+      <pre class="language-jsx" data-lang="JSX">
+        <code>var Figure = React.createClass({</code><code>  render: function() {</code><code>return &lt;img src='http://tinyurl.com/lkevsb9' /></code><code>}</code><code>});</code>
+        <code>React.render(&lt;Figure />, document.body);</code></pre>
+    </div>
+  </section>
+  <!-- <section class="slide">
+    <div>
+      <h2>Code Samples</h2>
+      <pre>
+        <code>&lt;!DOCTYPE html&gt;</code>
+        <code>&lt;html lang="en"&gt;</code>
+        <code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
+        <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
+        <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
+        <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
+        <code><mark>&lt;/head&gt;</mark></code>
+      </pre>
+    </div>
+  </section>
+  <section class="slide cover picture">
+    <div>
+      <h2>Pictures</h2>
+      <img src="pictures/picture.jpg" alt="">
+    </div>
+  </section>
+  <section class="slide shout"><div>
+    <h2>You can even shout this way</h2>
+  </div>
 </section>
 <section class="slide">
-	<div>
-		<h2>Inner Navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</div>
+  <div>
+    <h2>Inner Navigation</h2>
+    <ol>
+      <li>Lets you reveal list items one by one</li>
+      <li class="next">To keep some key points</li>
+      <li class="next">In secret from audience</li>
+      <li class="next">But it will work only once</li>
+      <li class="next">Nobody wants to see the same joke twice</li>
+    </ol>
+  </div>
 </section>
 <section class="slide shout" id="SeeMore"><div>
-	<h2><img src="pictures/logo.svg" alt=""> <a href="https://github.com/shower/shower">See more on GitHub</a></h2>
-	<style>
-		#Picture h2 {
-			color:#FFF;
-		}
-		#SeeMore h2 {
-			font-size:100px
-		}
-		#SeeMore img {
-			width:0.72em;
-			height:0.72em;
-		}
-	</style>
+  <h2><img src="pictures/logo.svg" alt=""> <a href="https://github.com/shower/shower">See more on GitHub</a></h2>
+  <style>
+    #Picture h2 {
+      color:#FFF;
+    }
+    #SeeMore h2 {
+      font-size:100px
+    }
+    #SeeMore img {
+      width:0.72em;
+      height:0.72em;
+    }
+  </style>
 </div>
-</section>
+</section> -->
 
-	<!--
-		To hide progress bar from entire presentation
-		just remove “progress” element.
-	-->
-	<div class="progress"><div></div></div>
-	<script src="node_modules/shower-core/shower.min.js"></script>
-	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
-	<!-- Photos by John Carey, fiftyfootshadows.net -->
+  <!--
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+  -->
+  <div class="progress"><div></div></div>
+  <script src="node_modules/shower-core/shower.min.js"></script>
+  <script src="prism.js"></script>
+  <!-- Copyright © 2014 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
 </body>
 </html>

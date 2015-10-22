@@ -1,0 +1,912 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"blockquote	Tag"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"quer",
+				"queryUrl"
+			],
+			[
+				"log",
+				"log	console"
+			],
+			[
+				"ob",
+				"Object"
+			],
+			[
+				"Produc",
+				"ProductSubmit"
+			],
+			[
+				"producin",
+				"ProductInfo"
+			],
+			[
+				"Prodcui",
+				"productInfo"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"produc",
+				"product"
+			],
+			[
+				"pagina",
+				"pagination"
+			],
+			[
+				"fil",
+				"filterGroups"
+			],
+			[
+				"webpa",
+				"WebpackDevServer"
+			],
+			[
+				"browser",
+				"browserify"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"podut",
+				"products"
+			],
+			[
+				"lis",
+				"listDefault"
+			],
+			[
+				"pro",
+				"props	React: this.props."
+			],
+			[
+				"class",
+				"createClass"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"oper",
+				"operadora"
+			],
+			[
+				"que",
+				"queryObject"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"fin",
+				"function"
+			],
+			[
+				"co",
+				"Collections"
+			],
+			[
+				"get",
+				"getDB"
+			],
+			[
+				"api",
+				"apiKey"
+			],
+			[
+				"M",
+				"Mongolab"
+			],
+			[
+				"proj",
+				"project"
+			],
+			[
+				"users",
+				"Users"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4871,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "  <section class=\"slide\">\n    <div>\n      <h2>Even Tables</h2>\n      <table>\n        <tr>\n          <th scope=\"col\">Locavore</th>\n          <th>Umami</th>\n          <th>Helvetica</th>\n          <th>Vegan</th>\n        </tr>\n        <tr>\n          <th scope=\"row\">Fingerstache</th>\n          <td>Kale</td>\n          <td>Chips</td>\n          <td>Keytar</td>\n        </tr>\n        <tr>\n          <th scope=\"row\">Sriracha</th>\n          <td>Gluten-free</td>\n          <td>Ennui</td>\n          <td>Keffiyeh</td>\n        </tr>\n        <tr>\n          <th scope=\"row\">Thundercats</th>\n          <td>Jean</td>\n          <td>Shorts</td>\n          <td>Biodiesel</td>\n        </tr>\n        <tr>\n          <th scope=\"row\">Terry</th>\n          <td>Richardson</td>\n          <td>Swag</td>\n          <td>Blog</td>\n        </tr>\n      </table>\n      <p>It’s good to have information organized.</p>\n    </div>\n  </section>\n  \n      <figure>\n        <blockquote>\n          <p>O React tem uma API bem pequena. Isso o torna divertido de usar, fácil de aprender e simples de entender. Entretanto, ser simples não quer dizer ser familiar. Alguns conceitos precisam ser cobertos antes de começarmos de fato. Vamos dar uma olhada em cada um.</p>\n        </blockquote>\n        <figcaption>Jack Callister</figcaption>\n      </figure>",
+			"settings":
+			{
+				"buffer_size": 1305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "my_skin.css",
+			"settings":
+			{
+				"buffer_size": 880,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "fonts\nhttp://www.infoq.com/br/articles/reactjs-codecademy\nhttps://facebook.github.io/react/docs/thinking-in-react.html\n\n\nexemplos\nhttp://react.rocks/\n\n\nimagens\nhttps://assets.lullabot.com/\nhttp://blog.javascripting.com/\nhttps://facebook.github.io/react/\n\nconclusão\nhttp://facebook.github.io/react/docs/getting-started.html",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "save",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"tod",
+				"Tasks: New document"
+			],
+			[
+				"jx",
+				"Set Syntax: JSX"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"boile",
+				"Snippet: htmlboiler"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"cm",
+				"Toggle Comment"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"cmm",
+				"Toggle Comment"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"togg",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"to",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"int",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinte",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"setjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"commet",
+				"Toggle Comment"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"set ja",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/afgoulart/Desktop/dojo-react",
+		"/home/afgoulart/Desktop/dojo-react/pictures",
+		"/home/afgoulart/Desktop/dojo-react/temp"
+	],
+	"file_history":
+	[
+		"/home/afgoulart/projetos/cat-suba-react/app/components/pagination/Pagination.js",
+		"/home/afgoulart/projetos/cat-suba-react/src/js/actions/AppActions.js",
+		"/home/afgoulart/projetos/cat-suba-react/dist/js/bundle.js",
+		"/home/afgoulart/projetos/cat-suba-react/src/index.html",
+		"/home/afgoulart/projetos/cat-suba-react/src/js/Layout.js",
+		"/home/afgoulart/projetos/cat-suba-react/src/js/components/app.js",
+		"/home/afgoulart/projetos/cat-suba-react/src/js/components/Linha.js",
+		"/home/afgoulart/projetos/cat-suba-react/src/js/main.js",
+		"/home/afgoulart/projetos/cat-suba-react/src/js/stores/AppStore.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/public/index.html",
+		"/home/afgoulart/projetos/cat-suba-react/dist/index.html",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/Moldura.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/Produto.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/menu/ItemMenu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/menu/ListMenu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/Busca.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/Linha.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/menu/Menu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/pagination/Pagination.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/vitrine/Vitrine.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/vitrine/ProductImage.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/vitrine/SingleProduct.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/.gitignore",
+		"/home/afgoulart/Desktop/projetos/suba-react/public/scripts.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/mobile/js/busca.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/routes.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/main.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/package.json",
+		"/home/afgoulart/Desktop/projetos/suba-react/gulpfile.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/webpack.config.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/suba/mobile/busca.xhtml",
+		"/home/afgoulart/Desktop/projetos/suba-react/public/vendor/ajax/ajax.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/public/vendor/ajax/ajax.min.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/public/vendor/ajax/ajax.min.min.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/node_modules/fdaciuk/ajax/dist/ajax.min.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/node_modules/fdaciuk/ajax/src/ajax.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/node_modules/ajax/ajax.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/node_modules/@fdaciuk/ajax/src/ajax.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/suba/mobile/components/_header-search.xhtml",
+		"/home/afgoulart/Desktop/projetos/suba-react/node_modules/ajax-vanila/src/Ajax.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/mock/informatica.json",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/Main.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/menu/TitleMenu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/menu/LinkMenu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/.editorconfig",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/Menu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/ItemMenu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/ListMenu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/LinkMenu.js",
+		"/home/afgoulart/Desktop/projetos/suba-react/app/components/TitleMenu.js",
+		"/home/afgoulart/Desktop/projetos/sample-react/hello-world/mock/informatica.json",
+		"/home/afgoulart/Desktop/projetos/sample-react/hello-world/layout.html",
+		"/home/afgoulart/Desktop/projetos/sample-react/hello-world/main.js",
+		"/home/afgoulart/Desktop/projetos/sample-react/hello-world/public/index.html",
+		"/home/afgoulart/Desktop/projetos/sample-react/hello-world/app/components/Main.js",
+		"/home/afgoulart/Desktop/projetos/sample-react/hello-world/webpack.config.js",
+		"/home/afgoulart/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/afgoulart/Desktop/projetos/sample-react/src/components/Header.js",
+		"/home/afgoulart/Desktop/projetos/sample-react/node_modules/eslint/lib/rules/handle-callback-err.js",
+		"/home/afgoulart/Desktop/projetos/sample-react/node_modules/eslint-plugin-react/History.md",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/suba/pages/ofertas.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/shop/pages/components/header.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/header.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/acom/js/header.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/acom/img/header_banners",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/shop/inc/head.shtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogoshop/homes/HomeEuvinatvApresentadores.xml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogoshop/homes/hotsite-exclusivos.xml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/scripts/home2wiki.py",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/catalog/dalekjs/suba/tests/test_marketplace_produto.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogosuba/customappconfig.properties",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/shop/controlPanel/js/customer.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogosoub/customappconfig.properties",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogoshop/customappconfig.properties",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogoacom/customappconfig.properties",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/plugins-js/custom-slide-toggle/custom-slide-toggle.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/shop/checkout/js/commons/checkout-unear.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/scripts/comp2wiki.py",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/suba/pages/components/offers-product.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/catalog/app/sass/deps/main-product_dev.scss",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/shop/pages/components/offers-product.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/offers-product.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/acom/catalog/inc/mailOfferSuc.shtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/offers-options.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/shop/catalog/officecaio.htm",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/suba/mobile/ofertawow.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/suba/mobile/ofertas.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/soub/pages/ofertas.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/shop/pages/ofertas.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/shop/mobile/ofertas.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/ofertas.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/mobile/ofertas.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/offers-product-static.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/app-brands/wiki/componente-product.md",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/templates-product.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogoshop/homes/google-remarketing-produto.xml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/catalog/xml-exporter/etc/acom-twenga-produtos-dev-time.properties",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo_backend/GetItemFull/impl/ItemMassiveImportWeb/src/test/resources/sql/pricing/insert-pricing-new-model.sql",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo_backend/Indexador/extras/scripts/local_full-massive-import-process.sh",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/offers-product-price-static.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/footer-producao.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/node_modules/.bin/grunt-preprocess",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/build/test-prefix.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo_backend/Indexador/extras/scripts/full-massive-import-process.sh",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/offers-table.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/catalog/util/doc/page/overview-frame.html",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/Find Results",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo_backend/GetItemFull/doc/FRD_ORMS_002(UDAs).doc",
+		"/home/afgoulart/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/catalog/app/sass/deps/menu_top_list.scss",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/catalog/app/scripts/vendor/spacey/templates-html/trendtopics.html",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/catalog/app/scripts/vendor/spacey/templates.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/catalog/app/sass/deps/vitrine-product.scss",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/catalog/xml-exporter/templates/OPN_BUSCAPE/shop/template.ftl",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/catalog/casperjs/acom/tests/test_mktplace.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/acom/catalog/inc/tabsEspiar.shtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/extras/acom/teste.txt",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/stores/app/sass/centauro/_trend-topics.scss",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/acom/catalog/app/sass/deps/vitrine-product.scss",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/properties/dev/catalogosoub/homes/vitrine_preco_baixou.xml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/impl/components/acom/pages/components/vitrine.xhtml",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/app-brands/VagrantInstall.sh",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/velocity.log",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/acom/catalog/app/sass/deps/top-vitrine.scss",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/stores/app/sass/centauro/_vitrine.scss",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/js/webtrends.js",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/scripts/test-redirects.py",
+		"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/catalog/js/v1/vendor/spacey/templates-html/trendtopics.html"
+	],
+	"find":
+	{
+		"height": 90.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/afgoulart/Desktop/projetos/b2w-catalogo/catalogo/resources/suba/catalog/app/sass/deps"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\n					",
+			"li>",
+			"<li",
+			"picture.jpg",
+			"pictures/picture.",
+			"\"slide\"><div>",
+			"</div></section>",
+			"menu={",
+			"object",
+			"this.props",
+			"WebpackDevServer",
+			"babelify",
+			"(",
+			" from",
+			"import",
+			"from",
+			"Moldura",
+			"TodoConstants",
+			"var",
+			"components",
+			"components/",
+			"components",
+			"components/menu",
+			"SingleProduct",
+			"class=",
+			"window.",
+			"jsonFlickrFeed",
+			">\n",
+			"class=\"",
+			"item",
+			"SingleProduct",
+			"Vitrine",
+			"class=",
+			"end",
+			"class=",
+			"Breadcrumb",
+			"class=",
+			"Filters",
+			"li><li",
+			"class=",
+			"exemple",
+			"export default new",
+			"React.Component",
+			"React.",
+			"\n  let ",
+			"render(){",
+			"render: function()",
+			"render: function(){",
+			"\n  });",
+			"  });",
+			"render: function()",
+			"class=",
+			"href",
+			"text",
+			"\"",
+			": ",
+			",\n  ",
+			"var",
+			"http://www.submarino.com.br/portal/hotsite-sl-comp/header-boxes-colecoes-68-desc/sl-2sagasecolecoes/0/260144/114877513/117677234/117104250?",
+			"http://www.submarino.com.br/portal/hotsite-sl/header-livros-imp-cool-books/sl-2coolstuff/260144/260144/112548716/112665200/112551894?",
+			"http://www.submarino.com.br/sublinha/299237/ar-condicionado-e-aquecedores/ar-condicionado-e-split/ar-condicionado-janela",
+			"http://www.submarino.com.br/loja/309289/cds",
+			"http://www.submarino.com.br/linha/265028/tv-e-home-theater/tvs/caracteristicas-3d",
+			".alert-sku-without-stock",
+			"';\n",
+			"menu-top-list",
+			".menu-top-list",
+			".",
+			"/a></li>",
+			"scope",
+			"li",
+			". ",
+			".attributes",
+			"results",
+			"seu",
+			"se",
+			"results",
+			"articles",
+			"boxhome.",
+			"boxhome.subtitle",
+			"boxhome.",
+			"cssmin",
+			"cdnify",
+			"cssmin",
+			"'<%= yeoman.dist %>/scripts/scripts.js': [\n            '.tmp/concat/scripts/scripts.js'\n          ]",
+			"cssm",
+			"generated",
+			"posts",
+			"PostsS",
+			"User",
+			"=",
+			"mongolab",
+			"project",
+			"mongolab",
+			"v2App",
+			"<script src=\"",
+			"=\"images/",
+			"href=\"",
+			"v2App",
+			"\"",
+			"  ui-sref",
+			"class=\"box-menu\"",
+			"ui",
+			"ng",
+			" hre",
+			"));\n",
+			"res.json",
+			"res.json(err);\n",
+			"res.json(err);",
+			"Users",
+			")\n",
+			"db",
+			"\n$ "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"http://www.submarino.com.br/portal/hotsite_novo/header-boxes-colecoes-68-desc/sl-2sagasecolecoes/0/260144/114877513/117677234/117104250",
+			"http://www.submarino.com.br/portal/hotsite_novo/header-livros-imp-cool-books/sl-2coolstuff/260144/260144/112548716/112665200/112551894",
+			"http://www.submarino.com.br/sublinha/299237/ar-condicionado-e-aquecedores/ar-condicionado/ar-condicionado-janela",
+			"http://www.submarino.com.br/loja/309289/musica",
+			"http://www.submarino.com.br/linha/265028/tv-e-home-theater/tvs/caracteristicas-smart+tv+3d"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4546,
+								4546
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3572.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/home/afgoulart/Desktop/dojo-react",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "my_skin.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								628
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
+							"default_dir": "/home/afgoulart/Desktop/dojo-react",
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.692307692308,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dojo-react.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"vendoraj",
+				"public/vendor/ajax/ajax.min.js"
+			],
+			[
+				"header",
+				"src/components/Header.js"
+			],
+			[
+				"subaheader.xhtml",
+				"catalogo/impl/components/suba/pages/components/header.xhtml"
+			],
+			[
+				"custom",
+				"catalogo/properties/dev/catalogosuba/customappconfig.properties"
+			],
+			[
+				"subaoffersproduc",
+				"catalogo/impl/components/suba/pages/components/offers-product.xhtml"
+			],
+			[
+				"ofertxhtml",
+				"catalogo/impl/components/suba/pages/ofertas.xhtml"
+			],
+			[
+				"templates.js",
+				"catalogo/resources/suba/catalog/app/scripts/vendor/spacey/templates.js"
+			],
+			[
+				"subavitrneproduc",
+				"catalogo/resources/suba/catalog/app/sass/deps/vitrine-product.scss"
+			],
+			[
+				"vitrine.scss",
+				"catalogo/resources/acom/catalog/app/sass/deps/top-vitrine.scss"
+			],
+			[
+				"trend",
+				"catalogo/resources/suba/stores/app/sass/centauro/_trend-topics.scss"
+			],
+			[
+				"spaceytemplates/tren",
+				"catalogo/resources/suba/catalog/app/scripts/vendor/spacey/templates-html/trendtopics.html"
+			],
+			[
+				"mainscs",
+				"app/styles/main.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/projetos/cat-suba-react.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 517.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
