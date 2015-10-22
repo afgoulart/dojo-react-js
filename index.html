@@ -122,7 +122,7 @@
       <h2>Componente</h2>
       <p>Criando um componente</p>
       <pre class="language-jsx" data-lang="JSX">
-        <code>var Figure = React.createClass({</code><code>  render: function() {</code><code>    return &lt;img src='http://tinyurl.com/lkevsb9' /></code><code>  }</code><code>});</code><code>React.render(&lt;Figure />, document.body);</code></pre>
+        <code>var MyFigure = React.createClass({</code><code>  render: function() {</code><code>    return &lt;img src='http://tinyurl.com/lkevsb9' /></code><code>  }</code><code>});</code><code>React.render(&lt;MyFigure />, document.body);</code></pre>
     </div>
   </section>
   <section class="slide">
@@ -130,8 +130,8 @@
       <h2>Props</h2>
       <p>Criando um componente com propriedades</p>
       <pre class="language-jsx" data-lang="JSX">
-        <code>var Figure = React.createClass({</code><code>  render: function() {</code><code>return &lt;img src='http://tinyurl.com/lkevsb9' /></code><code>}</code><code>});</code>
-        <code>React.render(&lt;Figure />, document.body);</code></pre>
+        <code>var MyFigure = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;figure></code><code>        &lt;img src={this.props.imageUrl} /></code><code>        &lt;figcaption>{this.props.caption} &lt;/figcaption></code><code>      &lt;/figure></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;MyFigure imageUrl="http://tinyurl.com/lkevsb9" caption="My figure 1" />,</code><code>  document.body);</code></pre>
+        <figure></figure>
     </div>
   </section>
   <!-- <section class="slide">
@@ -154,38 +154,29 @@
       <img src="pictures/picture.jpg" alt="">
     </div>
   </section>
-  <section class="slide shout"><div>
-    <h2>You can even shout this way</h2>
-  </div>
-</section>
-<section class="slide">
-  <div>
-    <h2>Inner Navigation</h2>
-    <ol>
-      <li>Lets you reveal list items one by one</li>
-      <li class="next">To keep some key points</li>
-      <li class="next">In secret from audience</li>
-      <li class="next">But it will work only once</li>
-      <li class="next">Nobody wants to see the same joke twice</li>
-    </ol>
-  </div>
-</section>
-<section class="slide shout" id="SeeMore"><div>
-  <h2><img src="pictures/logo.svg" alt=""> <a href="https://github.com/shower/shower">See more on GitHub</a></h2>
-  <style>
-    #Picture h2 {
-      color:#FFF;
-    }
-    #SeeMore h2 {
-      font-size:100px
-    }
-    #SeeMore img {
-      width:0.72em;
-      height:0.72em;
-    }
-  </style>
-</div>
-</section> -->
+  <section class="slide shout">
+    <div>
+      <h2>You can even shout this way</h2>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Inner Navigation</h2>
+      <ol>
+        <li>Lets you reveal list items one by one</li>
+        <li class="next">To keep some key points</li>
+        <li class="next">In secret from audience</li>
+        <li class="next">But it will work only once</li>
+        <li class="next">Nobody wants to see the same joke twice</li>
+      </ol>
+    </div>
+  </section> -->
+  <section class="slide shout" id="SeeMore">
+    <div>
+      <h2>Obrigado</h2>
+      <img src="pictures/giphy.gif" alt="">
+    </div>
+  </section>
 
   <!--
     To hide progress bar from entire presentation

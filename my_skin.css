@@ -4,6 +4,7 @@
 .tag {color: #A52A2A;}
 .attr {color: #FF7F50;}
 code .content {color: #FFF9C4;}
+.slide > div {padding-top: 60px;}
 .slide h2{color: #fff;}
 .slide p {
   margin: 0 0 20px;
@@ -25,7 +26,7 @@ code .content {color: #FFF9C4;}
   color: #FFF;
   font-size: 20px;
 }
-.slide pre code { line-height: 1.3em; }
+.slide pre code { line-height: 1.3em; font-size: 20px; }
 .slide pre code:before {display: none;}
 .picture h2 {color:#FFF;}
 .picture img {height: 100%; width: auto; margin: 0 auto; right: 0;}
@@ -76,3 +77,14 @@ code .content {color: #FFF9C4;}
   color:#FFF;
 }
 
+
+#SeeMore {background: #000;}
+#SeeMore h2 {
+  text-shadow: -1px -1px 5px #FFF;
+  top: 70px;
+}
+#SeeMore img {
+  height:100%;
+  margin-top: 70px;
+  width:auto;
+}
