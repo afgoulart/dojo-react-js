@@ -21,7 +21,7 @@ code .content {color: #FFF9C4;}
   margin: 0;
   position: relative;
 }
-.slide.shout:after {visibility: visible;}
+.slide:after {visibility: hidden;}
 .slide.shout h2 {font-size: 4em;}
 .slide.shout.supertext h2 {font-size: 7em;}
 .slide p {
@@ -60,7 +60,7 @@ code .content {color: #FFF9C4;}
 
 .slide .full {position: relative;}
 .slide .full > div {padding: 0; width: 100%; height: 100%;}
-.slide.topic h2 {font-size: 60px; top: 50px;}
+.slide.topic h2 {font-size: 60px.slide.shout:after; top: 50px;}
 
 .picture h2 {color:#FFF; text-align: center;}
 .picture img {height: 100%; width: auto; margin: 0 auto; right: 0;}
