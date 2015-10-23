@@ -128,8 +128,8 @@ code .content {color: #FFF9C4;}
 }
 #seemore img.logo-github {
   display: inline-block;
-  max-width: 150px;
-  margin-bottom: -50px;
+  max-width: 50px;
+  margin-bottom: -10px;
   position: relative;
 }
 
@@ -142,4 +142,9 @@ code .content {color: #FFF9C4;}
   height:100%;
   margin-top: 70px;
   width:auto;
+}
+.qrcode {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
 }
