@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>TODO</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+      <div id="app"></div>
+      <script src="js/react.js"></script>
+      <script src="js/react-dom.js"></script>
+      <script>
+        var Todo = React.createClass({
+          getInitialState() {
+              return {
+                  list: []
+              };
+          },
+
+          saveItem() {
+
+          }
+
+          render() {
+            return (
+              <div>
+                <EnterItem />
+                <TodoList />
+              </div>
+            )
+          }
+        });
+
+        var EnterItem = React.createClass({
+          getInitialState() {
+              return {
+                  item: {
+                    done: false
+                  }
+              };
+          },
+          render(){
+            return (
+              var item = this.state.item;
+              var save = this.props.save;
+              <div>
+                <input type="text" value={text} />
+                <button onClick={save(text)}>Save</button>
+              </div>
+            )
+          }
+        })
+
+        React.render(<Todo />, document.getElementById('app'));
+      </script>
+    </body>
+</html>
