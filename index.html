@@ -20,7 +20,7 @@
         <h2>React JS</h2>
         <p>by <a href="http://afgoulart.com">André Filipe Goulart</a></p>
       </div>
-      <img src="pictures/cover.jpg" alt="">
+      <img src="pictures/cover.jpg">
     </div>
   </section>
 
@@ -42,7 +42,7 @@
   <section class="slide cover picture" id="letsgo">
     <div>
       <h2>Vamos começar?</h2>
-      <img src="pictures/cheering_minions.gif" alt="">
+      <img src="pictures/cheering_minions.gif">
     </div>
   </section>
   <section class="slide shout">
@@ -50,9 +50,9 @@
       <h2>Uma biblioteca e <br> não um framework.</h2>
     </div>
   </section>
-  <section class="slide shout supertext">
+  <section class="slide shout ">
     <div>
-      <h2>SAP</h2>
+      <h2>Single Page Applications</h2>
     </div>
   </section>
   <section class="slide shout">
@@ -70,6 +70,18 @@
     <div>
       <h2>Elementos React</h2>
       <!-- <p>Objetos Javascript que representam elementos html guardados na memória. Eles não existem no browser.</p> -->
+    </div>
+  </section>
+  <section class="slide shout">
+    <div>
+      <h2>Virtual DOM <br> (pseudo-DOM)</h2>
+      <!-- <figure>
+        <blockquote>
+          <p>A arvore em javascript dos elementos e componetes React.</p>
+          <p>O React renderia o Virtual DOM para tornar a inteface do usuário visível.</p>
+          <p>O React observa procurando alterações, automaticamente mutando o DOM do browser para corresponder com o virtual DOM.</p>
+        </blockquote>
+      </figure> -->
     </div>
   </section>
   <section class="slide shout" id="componentes">
@@ -98,18 +110,6 @@
       <code>React.createClass({</code><code>  render: function(){</code><code>    return (&lt;h1>Oi&lt;/h1>)</code><code>  }</code><code>});</code></pre>
     </div>
   </section>
-  <section class="slide shout">
-    <div>
-      <h2>Virtual DOM <br> (pseudo-DOM)</h2>
-      <!-- <figure>
-        <blockquote>
-          <p>A arvore em javascript dos elementos e componetes React.</p>
-          <p>O React renderia o Virtual DOM para tornar a inteface do usuário visível.</p>
-          <p>O React observa procurando alterações, automaticamente mutando o DOM do browser para corresponder com o virtual DOM.</p>
-        </blockquote>
-      </figure> -->
-    </div>
-  </section>
   <section class="slide shout textlight">
     <div>
       <h2>Anatomia de uma aplicação React</h2>
@@ -130,6 +130,11 @@
         <code>React.render(</code><code>  &lt;h1>Hello World&lt;/h1>, document.body</code><code>);</code></pre>
     </div>
   </section>
+  <section class="slide shout">
+    <div>
+      <h2>Javascript Reativo</h2>
+    </div>
+  </section>
   <section class="slide">
     <div>
       <h2>Componente</h2>
@@ -139,18 +144,12 @@
   </section>
   <section class="slide shout">
     <div>
-      <img src="pictures/arsenio.gif" alt="">
-    </div>
-  </section>
-  <section class="slide shout">
-    <div>
-      <h2>Javascript Reativo</h2>
+      <img src="pictures/arsenio.gif">
     </div>
   </section>
   <section class="slide">
     <div>
       <h2>Props</h2>
-      <p>Criando um componente com propriedades</p>
       <pre class="language-jsx" data-lang="JSX">
         <code>var Todo = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;ul></code><code>        &lt;li>{this.props.title} &lt;/li></code><code>      &lt;/ul></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo title="My figure 1" />, document.body);</code></pre>
     </div>
@@ -169,7 +168,7 @@
   </section>
   <section class="slide shout cover">
     <div>
-      <img src="pictures/universal.gif" alt="">
+      <img src="pictures/universal.gif">
     </div>
   </section>
   <section class="slide shout">
@@ -177,7 +176,7 @@
       <h2>Data-biding</h2>
     </div>
   </section>
-  <section class="slide">
+  <section class="slide" id="data-binding">
     <div>
       <h2>Data-biding</h2>
       <pre class="language-jsx" data-lang="JSX">
@@ -186,10 +185,10 @@
   </section>
   <section class="slide shout cover" id="why">
     <div>
-        <img src="pictures/why.gif" alt="">
+        <img src="pictures/why.gif">
     </div>
   </section>
-  <section class="slide" id="why-answers">
+  <section class="slide">
     <div>
         <h2>Why React?</h2>
         <ol>
@@ -228,7 +227,7 @@
   <section class="slide" id="seemore">
     <div>
       <h2>&lt;/thanks></h2>
-      <p><img src="images/Octocat.png" class="logo-github" alt=""> <a href="https://github.com/afgoulart/dojo-react-js">A apresentação está no GitHub</a></p>
+      <p><img src="images/Octocat.png" class="logo-github"> <a href="https://github.com/afgoulart/dojo-react-js">A apresentação está no GitHub</a></p>
       <p>twitter: <a href="http://twitter.com/afgoulart">@afgoulart</a></p>
       <p><a href="mailto:afgoulart.rj@gmail.com">afgoulart.rj@gmail.com</a></p>
       <p><a href="http://github.com/afgoulart">http://github.com/afgoulart - Github</a></p>
@@ -238,7 +237,7 @@
   </section>
   <section class="slide shout cover texttop">
     <div>
-      <img src="pictures/giphy.gif" alt="">
+      <img src="pictures/giphy.gif">
     </div>
   </section>
 

@@ -126,6 +126,9 @@ code .content {color: #FFF9C4;}
 #estado.slide pre code {
   font-size: 0.7em;
 }
+#data-binding.slide pre code {
+  font-size: 0.7em;
+}
 #seemore img.logo-github {
   display: inline-block;
   max-width: 50px;
