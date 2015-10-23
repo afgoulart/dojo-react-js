@@ -23,7 +23,8 @@
       <img src="pictures/cover.jpg" alt="">
     </div>
   </section>
-  <section class="slide" id="topicos">
+
+  <!-- <section class="slide" id="topicos">
     <div>
       <h2>Tópicos que vamos abordar</h2>
       <ol>
@@ -37,47 +38,58 @@
         <li class="next">Por que usar React?</li>
       </ol>
     </div>
-  </section>
+  </section> -->
   <section class="slide cover picture" id="letsgo">
     <div>
       <h2>Vamos começar?</h2>
       <img src="pictures/cheering_minions.gif" alt="">
     </div>
   </section>
-  <section class="slide cover picture" id="conceitos">
+  <section class="slide shout">
+    <div>
+      <h2>Uma biblioteca e <br> não um framework.</h2>
+    </div>
+  </section>
+  <section class="slide shout supertext">
+    <div>
+      <h2>SAP</h2>
+    </div>
+  </section>
+  <section class="slide shout">
+    <div>
+      <h2>Facebook, Instagram, <br> Empresas e Devs <br> pelos mundo</h2>
+    </div>
+  </section>
+  <!-- <section class="slide cover picture" id="conceitos">
     <div>
       <h2 class="large">Conceitos</h2>
       <img src="pictures/conceitos.jpg" alt="conceitos">
     </div>
-  </section>
-  <section class="slide" id="elementos-react">
+  </section> -->
+  <section class="slide shout" id="elementos-react">
     <div>
       <h2>Elementos React</h2>
-      <figure>
-        <blockquote>
-          <p>Objetos Javascript que representam elementos html guardados na memória. Eles não existem no browser.</p>
-        </blockquote>
-      </figure>
+      <!-- <p>Objetos Javascript que representam elementos html guardados na memória. Eles não existem no browser.</p> -->
     </div>
   </section>
-  <section class="slide" id="componentes">
+  <section class="slide shout" id="componentes">
     <div>
         <h2>Componentes</h2>
-        <figure>
+        <!-- <figure>
           <blockquote>
             <p>São criados pelo desenvoledor. Geralmente partes maiores que possuem uma estrutura e funcionalidades como Lista, Itens, Galeria ou Imagem.</p>
           </blockquote>
-        </figure>
+        </figure> -->
     </div>
   </section>
   <section class="slide" id="jsx">
     <div>
       <h2>JSX</h2>
-      <figure>
+      <!-- <figure>
         <blockquote>
           <p>Técnica para criação dos elementos e componentes React.</p>
         </blockquote>
-      </figure>
+      </figure> -->
       <pre class="language-html" data-lang="HTML">
         <code>&lt;h1&gt;Oi&lt;/h1&gt;</code></pre>
       <pre class="language-jsx" data-lang="JS">
@@ -86,44 +98,53 @@
       <code>React.createClass({</code><code>  render: function(){</code><code>    return (&lt;h1>Oi&lt;/h1>)</code><code>  }</code><code>});</code></pre>
     </div>
   </section>
-  <section class="slide">
+  <section class="slide shout">
     <div>
-      <h2>Virtual DOM</h2>
-      <figure>
+      <h2>Virtual DOM (pseudo-DOM)</h2>
+      <!-- <figure>
         <blockquote>
           <p>A arvore em javascript dos elementos e componetes React.</p>
           <p>O React renderia o Virtual DOM para tornar a inteface do usuário visível.</p>
           <p>O React observa procurando alterações, automaticamente mutando o DOM do browser para corresponder com o virtual DOM.</p>
         </blockquote>
-      </figure>
+      </figure> -->
     </div>
   </section>
-  <section class="slide shout cover textlight">
+  <section class="slide shout textlight">
     <div>
       <h2>Anatomia de uma aplicação React</h2>
-      <img src="pictures/anatomia.jpg" alt="">
+      <img src="pictures/anatomia.jpg" alt="anatomia">
     </div>
   </section>
-  <section class="slide shout textlight topic">
+  <section class="slide texttop">
     <div>
       <h2>Anatomia de uma aplicação React</h2>
-      <img src="pictures/thinking-in-react-mock.jpg" class="small" alt="">
+      <img src="pictures/thinking-in-react-mock.jpg" class="medium" alt="thinking in react mock">
     </div>
   </section>
   <section class="slide">
     <div>
       <h2>Renderização</h2>
-      <p>Aceita dois argumentos "elemento" e "um nó" do DOM</p>
+      <!-- <p>Aceita dois argumentos "elemento" e "um nó" do DOM</p> -->
       <pre class="language-jsx" data-lang="JSX">
-        <code>React.render(</code><code>  &lt;h1>Hello World&lt;/h1>,</code><code> document.body</code><code>);</code></pre>
+        <code>React.render(</code><code>  &lt;h1>Hello World&lt;/h1>, document.body</code><code>);</code></pre>
     </div>
   </section>
   <section class="slide">
     <div>
       <h2>Componente</h2>
-      <p>Criando um componente</p>
       <pre class="language-jsx" data-lang="JSX">
         <code>var Todo = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;ul></code><code>        &lt;li>item 1&lt;/li></code><code>      &lt;/ul></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo />, document.body);</code></pre>
+    </div>
+  </section>
+  <section class="slide shout">
+    <div>
+      <img src="pictures/arsenio.gif" alt="">
+    </div>
+  </section>
+  <section class="slide shout">
+    <div>
+      <h2>Javascript Reativo</h2>
     </div>
   </section>
   <section class="slide">
@@ -136,9 +157,59 @@
   </section>
   <section class="slide" id="estado">
     <div>
-      <h2>Estado</h2>
+      <h2>State</h2>
       <pre class="language-jsx" data-lang="JSX">
         <code>var Todo = React.createClass({</code><code>  getInicialState: function() {</code><code>    return {</code><code>      done: false</code><code>    }</code><code>  },</code><code>  render: function() {</code><code>    return (</code><code>      &lt;ul></code><code>        &lt;li></code><code>          &lt;input type="checkbox" checked={this.state.done}> {this.props.title}</code><code>        &lt;/li></code><code>      &lt;/ul></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo title="My figure 1" />, document.body);</code></pre>
+    </div>
+  </section>
+  <section class="slide shout">
+    <div>
+      <h2>Javascript Isomorfico (Javascript Universal)</h2>
+    </div>
+  </section>
+  <section class="slide shout">
+    <div>
+      <h2>Data-biding</h2>
+    </div>
+  </section>
+  <section class="slide">
+    <div>
+      <h2>Data-biding</h2>
+      <pre class="language-jsx" data-lang="JSX">
+      <code>var NoLink = React.createClass({</code><code>  getInitialState: function() {</code><code>    return {message: 'Hello!'};</code><code>  },</code><code>  handleChange: function(event) {</code><code>    this.setState({message: event.target.value});</code><code>  },</code><code>  render: function() {</code><code>    var message = this.state.message;</code><code>    return (</code><code>      &lt;div></code><code>        &lt;input type="text" value={message} onChange={this.handleChange} />;</code><code>        &lt;h2>{message}&lt;/h2>;</code><code>      &lt;/div></code><code>    )</code><code>  }</code><code>});</code></pre>
+    </div>
+  </section>
+  <section class="slide shout" id="why">
+    <div>
+        <h2>Why React?</h2>
+    </div>
+  </section>
+  <section class="slide" id="why-answers">
+    <div>
+        <ol>
+          <li>Não é um framework MVC.</li>
+          <li class="next">Não usa templates.</li>
+          <li class="next">Não exite watch events, podendo renderizar quando for necessário.</li>
+          <li class="next">Reaproveitamento de código com a criação de componentes</li>
+          <li class="next">Trabalha com o VirtualDOM, sendo mais rápido que o DOM nativo</li>
+          <li class="next">Podemos rodar o React no lado do Servidor com Node, melhorando para o SEO e a performace</li>
+        </ol>
+    </div>
+  </section>
+  <section class="slide" id="refers">
+    <div>
+      <h2>Referências</h2>
+      <ul>
+        <li><a href="http://facebook.github.io/react/blog/2013/06/05/why-react.html" target="_blank">http://facebook.github.io/react/blog/2013/06/05/why-react.html</a></li>
+        <li><a href="http://facebook.github.io/react/docs/getting-started.html" target="_blank">http://facebook.github.io/react</a></li>
+        <li><a href="https://www.youtube.com/watch?v=8DQngR34Q5s&amp;feature=youtu.be" target="_blank">Raphael Amorim - Meet React (Criando aplicações web com ReactJS)</a></li>
+        <li><a href="http://tableless.com.br/react-javascript-reativo/" target="_blank">http://tableless.com.br/react-javascript-reativo/</a></li>
+        <li><a href="http://willianjusten.com.br/comecando-com-react/" target="_blank">http://willianjusten.com.br/comecando-com-react/</a></li>
+        <li><a href="http://www.hugobessa.com.br/posts/comecando-com-react/" target="_blank">http://www.hugobessa.com.br/posts/comecando-com-react/</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank">https://en.wikipedia.org/wiki/React_(JavaScript_library)</a></li>
+        <li><a href="http://react.rocks/" target="_blank">http://react.rocks/</a></li>
+        <li><a href="http://www.infoq.com/br/articles/reactjs-codecademy" target="_blank">http://www.infoq.com/br/articles/reactjs-codecademy</a></li>
+      </ul>
     </div>
   </section>
   <section class="slide shout" id="SeeMore">

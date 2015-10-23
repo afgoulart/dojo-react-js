@@ -21,9 +21,13 @@ code .content {color: #FFF9C4;}
   margin: 0;
   position: relative;
 }
+.slide.shout:after {visibility: visible;}
+.slide.shout h2 {font-size: 4em;}
+.slide.shout.supertext h2 {font-size: 7em;}
 .slide p {
   margin: 0 0 20px;
 }
+.slide a { color:#8FDCFF; }
 
 .slide .title-bottom {
   bottom: 30px;
@@ -84,12 +88,17 @@ code .content {color: #FFF9C4;}
   width: auto;
   z-index: -1;
 }
-.shout img.small {
+.slide img.small {
   bottom: 0;
   min-height: 60%;
   width: auto;
   top: 0;
   margin: auto;
+}
+.slide img.medium {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
 }
 
 /* Cover slide */
