@@ -126,13 +126,19 @@ code .content {color: #FFF9C4;}
 #estado.slide pre code {
   font-size: 0.7em;
 }
+#seemore img.logo-github {
+  display: inline-block;
+  max-width: 150px;
+  margin-bottom: -50px;
+  position: relative;
+}
 
-#SeeMore {background: #000;}
-#SeeMore h2 {
+#thanks {background: #000;}
+#thanks h2 {
   text-shadow: -1px -1px 5px #FFF;
   top: 70px;
 }
-#SeeMore img {
+#thanks img {
   height:100%;
   margin-top: 70px;
   width:auto;

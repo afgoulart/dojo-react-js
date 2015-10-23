@@ -100,7 +100,7 @@
   </section>
   <section class="slide shout">
     <div>
-      <h2>Virtual DOM (pseudo-DOM)</h2>
+      <h2>Virtual DOM <br> (pseudo-DOM)</h2>
       <!-- <figure>
         <blockquote>
           <p>A arvore em javascript dos elementos e componetes React.</p>
@@ -164,7 +164,12 @@
   </section>
   <section class="slide shout">
     <div>
-      <h2>Javascript Isomorfico (Javascript Universal)</h2>
+      <h2>Javascript Isomorfico <br> (Javascript)</h2>
+    </div>
+  </section>
+  <section class="slide shout cover">
+    <div>
+      <img src="pictures/universal.gif" alt="">
     </div>
   </section>
   <section class="slide shout">
@@ -179,20 +184,21 @@
       <code>var NoLink = React.createClass({</code><code>  getInitialState: function() {</code><code>    return {message: 'Hello!'};</code><code>  },</code><code>  handleChange: function(event) {</code><code>    this.setState({message: event.target.value});</code><code>  },</code><code>  render: function() {</code><code>    var message = this.state.message;</code><code>    return (</code><code>      &lt;div></code><code>        &lt;input type="text" value={message} onChange={this.handleChange} />;</code><code>        &lt;h2>{message}&lt;/h2>;</code><code>      &lt;/div></code><code>    )</code><code>  }</code><code>});</code></pre>
     </div>
   </section>
-  <section class="slide shout" id="why">
+  <section class="slide shout cover" id="why">
     <div>
-        <h2>Why React?</h2>
+        <img src="pictures/why.gif" alt="">
     </div>
   </section>
   <section class="slide" id="why-answers">
     <div>
+        <h2>Why React?</h2>
         <ol>
           <li>Não é um framework MVC.</li>
           <li class="next">Não usa templates.</li>
           <li class="next">Não exite watch events, podendo renderizar quando for necessário.</li>
           <li class="next">Reaproveitamento de código com a criação de componentes</li>
           <li class="next">Trabalha com o VirtualDOM, sendo mais rápido que o DOM nativo</li>
-          <li class="next">Podemos rodar o React no lado do Servidor com Node, melhorando para o SEO e a performace</li>
+          <li class="next">Podemos rodar o React no lado do Servidor com Node, melhorando para o SEO e a performace. Veja (<a target="_blank" href="http://davidwells.io/talks/isomorphic-javascript">apresentação sobre React Isomorfico</a>)</li>
         </ol>
     </div>
   </section>
@@ -212,9 +218,14 @@
       </ul>
     </div>
   </section>
-  <section class="slide shout" id="SeeMore">
+  <section class="slide shout" id="seemore">
     <div>
-      <h2>Obrigado</h2>
+      <h2><img src="pictures/Octocat.png" class="logo-github" alt=""> <a href="https://github.com/afgoulart/dojo-react-js">See more on GitHub</a></h2>
+    </div>
+  </section>
+  <section class="slide shout cover texttop">
+    <div>
+      <h2>&lt;/thanks></h2>
       <img src="pictures/giphy.gif" alt="">
     </div>
   </section>
