@@ -76,16 +76,14 @@
       <figure>
         <blockquote>
           <p>Técnica para criação dos elementos e componentes React.</p>
-          <p>Ex:
-            <pre class="language-html" data-lang="HTML">
-            <code>&lt;h1&gt;Oi&lt;/h1&gt;</code></pre>
-          </p>
-          <p>Ex:
-            <pre class="language-jsx" data-lang="JS">
-            <code>React.createElement('h1', null, 'Oi');</code></pre>
-          </p>
         </blockquote>
       </figure>
+      <pre class="language-html" data-lang="HTML">
+        <code>&lt;h1&gt;Oi&lt;/h1&gt;</code></pre>
+      <pre class="language-jsx" data-lang="JS">
+      <code>React.createElement('h1', null, 'Oi');</code></pre>
+      <pre class="language-jsx" data-lang="JSX">
+      <code>React.createClass({</code><code>  render: function(){</code><code>    return (&lt;h1>Oi&lt;/h1>)</code><code>  }</code><code>});</code></pre>
     </div>
   </section>
   <section class="slide">
@@ -133,16 +131,14 @@
       <h2>Props</h2>
       <p>Criando um componente com propriedades</p>
       <pre class="language-jsx" data-lang="JSX">
-        <code>var Todo = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;figure></code><code>        &lt;img src={this.props.imageUrl} /></code><code>        &lt;figcaption>{this.props.caption} &lt;/figcaption></code><code>      &lt;/figure></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo imageUrl="http://tinyurl.com/lkevsb9" caption="My figure 1" />,</code><code>  document.body);</code></pre>
-        <figure></figure>
+        <code>var Todo = React.createClass({</code><code>  render: function() {</code><code>    return (</code><code>      &lt;ul></code><code>        &lt;li>{this.props.title} &lt;/li></code><code>      &lt;/ul></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo title="My figure 1" />, document.body);</code></pre>
     </div>
   </section>
-  <section class="slide">
+  <section class="slide" id="estado">
     <div>
       <h2>Estado</h2>
-      <p>Criamos </p>
       <pre class="language-jsx" data-lang="JSX">
-        <code>var todo = React.createClass({</code><code>  getInicialState: function() {</code><code>    return {</code><code>      check: false</code><code>    },</code><code>  render: function() {</code><code>    return (</code><code>      &lt;figure></code><code>        &lt;img src={this.props.imageUrl} /></code><code>        &lt;figcaption>{this.props.caption} &lt;/figcaption></code><code>      &lt;/figure></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo imageUrl="http://tinyurl.com/lkevsb9" caption="My figure 1" />,</code><code>  document.body);</code></pre>
+        <code>var Todo = React.createClass({</code><code>  getInicialState: function() {</code><code>    return {</code><code>      done: false</code><code>    }</code><code>  },</code><code>  render: function() {</code><code>    return (</code><code>      &lt;ul></code><code>        &lt;li></code><code>          &lt;input type="checkbox" checked={this.state.done}> {this.props.title}</code><code>        &lt;/li></code><code>      &lt;/ul></code><code>    )</code><code>  }</code><code>});</code><code>React.render(&lt;Todo title="My figure 1" />, document.body);</code></pre>
     </div>
   </section>
   <section class="slide shout" id="SeeMore">

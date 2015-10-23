@@ -110,6 +110,13 @@ code .content {color: #FFF9C4;}
   color:#FFF;
 }
 
+#jsx.slide pre[class*='language-'],
+#estado.slide pre[class*='language-'] {
+  padding-top: 0px;
+}
+#estado.slide pre code {
+  font-size: 0.7em;
+}
 
 #SeeMore {background: #000;}
 #SeeMore h2 {
